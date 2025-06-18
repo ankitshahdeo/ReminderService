@@ -24,7 +24,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     recepientEmail: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false, 
     },
     status:{
       type: DataTypes.ENUM,
